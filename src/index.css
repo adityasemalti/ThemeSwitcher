@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .theme1 {
+    @apply bg-white text-gray-900 font-[Inter];
+  }
+
+  .theme2 {
+    @apply bg-gray-900 text-white font-serif;
+    font-family: Georgia, serif;
+  }
+
+  .theme3 {
+    @apply bg-pink-100 text-pink-900;
+    font-family: "Pacifico", cursive;
+  }
+}
